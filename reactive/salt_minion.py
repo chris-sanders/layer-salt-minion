@@ -8,3 +8,4 @@ def install_layer_salt_minion_subordinate():
     status_set('maintenance','installing salt-minion')
     apt_install('salt-minion')
     set_state('salt-minion.installed')
+    status_set('active','')
