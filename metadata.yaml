@@ -1,0 +1,21 @@
+name: salt-minion-subordinate
+summary: Suborniate to add salt-minion to services
+maintainer: Chris <sanders.chris@gmail.com>
+description: |
+  Adds a the salt minion to other charms
+tags:
+  # Replace "misc" with one or more whitelisted tags from this list:
+  # https://jujucharms.com/docs/stable/authors-charm-metadata
+  - misc
+subordinate: true
+series:
+  -xenial
+#provides:
+#  provides-relation:
+#    interface: interface-name
+#requires:
+#  requires-relation:
+#    interface: interface-name
+#peers:
+#  peer-relation:
+#    interface: interface-name
