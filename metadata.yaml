@@ -4,12 +4,14 @@ maintainer: Chris <sanders.chris@gmail.com>
 description: |
   Adds a the salt minion to other charms
 tags:
-  # Replace "misc" with one or more whitelisted tags from this list:
-  # https://jujucharms.com/docs/stable/authors-charm-metadata
   - misc
 subordinate: true
 series:
-  -xenial
+  - xenial
+requires:
+  juju-info:
+    interface: juju-info
+    scope: container
 #provides:
 #  provides-relation:
 #    interface: interface-name
