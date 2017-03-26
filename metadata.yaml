@@ -12,6 +12,8 @@ requires:
   juju-info:
     interface: juju-info
     scope: container
+  saltmaster:
+    interface: salt
 #provides:
 #  provides-relation:
 #    interface: interface-name
