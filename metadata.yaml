@@ -1,17 +1,17 @@
-name: salt-minion-subordinate
-summary: Suborniate to add salt-minion to services
+name: salt-minion
+summary: Salt-minion
 maintainer: Chris <sanders.chris@gmail.com>
 description: |
-  Adds a the salt minion to other charms
+  Adds a the salt minion to a machine 
 tags:
   - misc
-subordinate: true
+subordinate: false
 series:
   - xenial
 requires:
-  juju-info:
-    interface: juju-info
-    scope: container
+#  juju-info:
+#    interface: juju-info
+#    scope: container
   saltmaster:
     interface: salt
 #provides:
