@@ -1,6 +1,6 @@
 name: salt-minion
 summary: Installs salt-minion for use with salt-master
-maintainer: Chris Sanders<sanders.chris@gmail.com>
+maintainer: Chris Sanders <sanders.chris@gmail.com>
 description: |
   Adds the salt minion to a machine for pairing with salt-master charm
 tags:
