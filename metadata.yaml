@@ -5,9 +5,12 @@ description: |
   Adds the salt minion to a machine for pairing with salt-master charm
 tags:
   - ops
-subordinate: false
+subordinate: true
 series:
   - xenial
 requires:
   saltmaster:
     interface: salt
+  juju-info:
+    interface: juju-info
+    scope: container
