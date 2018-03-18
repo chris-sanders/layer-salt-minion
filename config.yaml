@@ -1,0 +1,6 @@
+options:
+  minion-id:
+    type: string
+    default: ""
+    description: "The minion ID to use, default to hostname, use $UNIT to replace with the juju unit"
+ 
