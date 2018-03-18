@@ -1,5 +1,5 @@
 options:
-  minion-id:
+  unit-as-id:
     type: boolean
     default: True
     description: "Set the minion_id to the unit id instead of hostname"

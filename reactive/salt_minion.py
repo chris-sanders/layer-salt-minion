@@ -11,7 +11,7 @@ def install_layer_salt_minion_subordinate():
     config = hookenv.config()
     status_set('maintenance', 'installing salt-minion')
     apt_install('salt-minion')
-    if config['unit-id']:
+    if config['unit-as-id']:
         with open('/etc/salt/minion_id', 'w') as conf:
             conf.write("{}".format(hookenv.local_unit()))
     set_state('salt-minion.installed')
