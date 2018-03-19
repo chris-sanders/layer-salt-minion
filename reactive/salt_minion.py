@@ -9,7 +9,7 @@ import socket
 def get_minion_id():
     config = hookenv.config()
     if config['unit-as-id']:
-        return hookenv.local_unit().replace('/', '-')
+        return hookenv.principal_unit().replace('/', '-')
     else:
         return socket.getfqdn()
 
