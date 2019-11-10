@@ -1,3 +1,10 @@
-includes: ['layer:basic','layer:salt-common','layer:version','interface:salt']  # if you use any interfaces, add them here
+includes:
+  - layer:basic
+  - layer:version
+  - layer:salt-common
+  - interface:salt
+options:
+  version:
+    file_name: "repo-info"
 repo: git@github.com:chris-sanders/layer-salt-minion.git
 

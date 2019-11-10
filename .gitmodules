@@ -1,0 +1,12 @@
+[submodule "layers/interface-salt"]
+	path = layers/interface-salt
+	url = https://github.com/chris-sanders/interface-salt.git
+[submodule "layers/layer-salt-common"]
+	path = layers/layer-salt-common
+	url = https://github.com/chris-sanders/layer-salt-common.git
+[submodule "layers/layer-version"]
+	path = layers/layer-version
+	url = https://github.com/pirate-charmers/layer-version.git
+[submodule "interfaces/interface-salt"]
+	path = interfaces/interface-salt
+	url = https://github.com/chris-sanders/interface-salt.git
